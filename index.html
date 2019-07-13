@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Bob's Flappy Karate Kid</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="lib/bootstrap.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron" style="background-color: white;">
+      <div class="row">
+        <div class="col-xs-2">
+          <img src="../assets/karate_logo.png" />
+        </div>
+        <div class="col-xs-10">
+          <h1>Flappy Karate Kid</h1>
+          <p>Welcome to the best flappy karate kid game there is!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <img src="../assets/screenshotStart.png" class="img-thumbnail img-responsive" />
+      </div>
+      <div class="col-md-4">
+        <img src="../assets/screenshot.png" class="img-thumbnail img-responsive" />
+      </div>
+      <div class="col-md-4">
+        <img src="../assets/screenshotOver.png" class="img-thumbnail img-responsive" />
+      </div>
+    </div>
+    <div id="game"> </div>
+
+    <div>
+      <button type="button" class="btn btn-default" id="scoresBtn">Scores</button>
+      <button type="button" class="btn btn-default" id="creditsBtn">Credits</button>
+      <button type="button" class="btn btn-default" id="helpBtn">Help</button>
+      <div id="content"> </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="lib/phaser.min.js"></script>
+  <script type="text/javascript" src="js/flappy.js"></script>
+  <script type="text/javascript" src="lib/jquery.js"></script>
+  <script type="text/javascript" src="js/interactivity.js"></script>
+
+</body>
+
+</html>
